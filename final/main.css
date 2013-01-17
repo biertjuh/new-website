@@ -1,0 +1,23 @@
+/* style sheet rickvolkerink.nl */
+/* (c) 2013 rickvolkerink.nl */
+
+h1{
+	color:blue;
+	font-size: 30px;
+	text-align: center;
+}
+.header {
+	height: 80px;
+	width: 960px;
+	background: grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#logo{
+	float: left;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
