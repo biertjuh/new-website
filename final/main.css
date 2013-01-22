@@ -2,14 +2,18 @@
 /* (c) 2013 rickvolkerink.nl */
 
 h1{
-	color:blue;
-	font-size: 30px;
-	text-align: center;
+	color: #2F2FD6;
+	font-family: Calibri, Arial, Verdana;
 }
+
+body {
+	background-color:#b0c4de;
+}
+
 .header {
 	height: 80px;
 	width: 960px;
-	background: grey;
+	background: #7777D4;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
@@ -17,7 +21,13 @@ h1{
 
 #logo{
 	float: left;
-	margin-top: 5px;
-	margin-right: 20px;
-	margin-left: 20px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#site-title {
+	text-align: center;
+	padding-top: 2px;
+	font-size: 15px;
 }
