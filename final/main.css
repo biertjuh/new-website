@@ -20,7 +20,7 @@ body {
 }
 
 .middle {
-	height: 450px;
+	height: 850px;
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -30,26 +30,32 @@ body {
 	height: 400px;
 	width: 120px;
 	background: #7A43E8;
-	/* margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	padding-top: 0px; */
+	float: left;
+	margin-top: 10px;
+}
+
+#anouncements {
+	height: 400px;
+	width: 120px;
+	float: left;
+	background: red;
+	margin-top: 430px;
 }
 
 #content {
-	height: 400px;
+	height: 800px;
 	width: 820px;
 	background: #7A43E8;
-	/* margin-left: 0px;
-	padding-left: 0px;
-	margin-right: 0px; */
+	float: right;
+	padding-left: 5px;
+	margin-top: 10px;
 }
 
 #logo{
-	float: left;
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-left: 5px;
+	float: left;
 }
 
 #site-title {
