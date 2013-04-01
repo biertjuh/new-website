@@ -14,16 +14,16 @@ body {
 	height: 80px;
 	width: 960px;
 	background: #7777D4;
-	margin-left: auto;
+	/* margin-left: auto;
 	margin-right: auto;
-	margin-top: -5px;
+	margin-top: -5px; */
 }
 
 .middle {
 	height: 850px;
 	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto;
+	margin-right: auto; */
 }
 
 #sidebar {
@@ -31,7 +31,7 @@ body {
 	width: 120px;
 	background: #7A43E8;
 	float: left;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 
 #navigation{
@@ -43,7 +43,7 @@ body {
 	width: 120px;
 	float: left;
 	background: red;
-	margin-top: 430px;
+	/* margin-top: 430px; */
 }
 
 #content {
@@ -51,8 +51,8 @@ body {
 	width: 820px;
 	background: #7A43E8;
 	float: right;
-	padding-left: 5px;
-	margin-top: 10px;
+	/* padding-left: 5px;
+	margin-top: 10px; */
 }
 
 #logo{
