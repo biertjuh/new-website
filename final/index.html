@@ -1,38 +1,114 @@
-<!doctype html>
-<!-- (c) 2013 rickvolkerink.nl -->
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<title>Rick Volkerink (.nl)</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<div class="header">
-	<div id="logo">
-		<a href="http://rickvolkerink.nl">
-		<img alt="Logo" src="images/logo2.bmp">
-		</a>
-	</div>
-	<div id="site-title">
-		<h1>Rickvolkerink.nl</h1>
-		<script src="http://code.jquery.com/jquery.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
-	</div>
-</div>
-<div class="middle">
-	<div id="sidebar">
-		<div id="navigation">
-			<p>Test</p>
-		</div>
-		<div id="announcements">
-			<p>Test</p>
-		</div>
-	</div>
-	
-	<div id="content">
-		<p>Test</p>
-	</div>
-</div>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rickvolkerink (.nl)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site van Rick Volkerink. Gaat over vanalles en niets!">
+    <meta name="author" content="Rick Volkerink">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="http://rickvolkerink.nl">Rick Volkerink (.nl)</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/index">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Geluid<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Leef!</a></li>
+                  <li><a href="#">Victor van Riemsdijk</a></li>
+                  <li><a href="#">Andere</a></li>
+                  <!-- <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li> -->
+                </ul>
+              </li>
+			  <li class="dropdown">
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown">School<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">Basis school</a></li>
+				  <li><a href="#">Middelbare school</a></li>
+				  <li><a href="#">MBO</a></li>
+				</ul>
+			   </li>
+            </ul>
+            <!-- <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+            </form> -->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Hoi, wat leuk:</h1>
+        <p>Dat je toch hier komt kijken. Dat je tenminste de moeite neemt om dit stukje te lezen!</br>Ik snap dat je zoiets zal hebben van NEEE niet alweer een website over een persoon die denkt dat hij interresant is. Mooi, want als er 1 ding is wat ik niet ben is het wel interesant :P.</p>
+        <p><a href="/about" class="btn btn-primary btn-large">Lees meer over mij &raquo;</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span6">
+          <h2>Geluid</h2>
+          <p>Op dit moment doe ik alleen binnen <a href="http://leefzutphen.nl">Leef!Zutphen</a> wat met geluid, maar dit doe ik met veel plezier. Op dit moment zijn we zelfs nog op zoek naar mensen die ons kunnen ondersteunen, lijkt dit je wat, <a href="http://leefzutphen.nl/geluidsmensen-gezocht/" target="_blank">kijk dan hier.</a></p>
+          <p><a class="btn" href="/geluid/leef">Lees meer &raquo;</a></p>
+        </div>
+        <div class="span6">
+          <h2>School</h2>
+          <p>Ik heb een niet heel erg boeiend persoon met betrekking tot mijn school leven. Ik heb mijn basisschool periode op 2 scholen gevolgt, mijn VMBO diploma in 1 keer gehaald, netzoals mijn MBO3 diploma, en nu ben ik bezig voor MBO4. Als je hier mee over wilt weten klik dan op de link, je begint dan met mijn basisschool.</p>
+          <p><a class="btn" href="/school/basis">Lees meer &raquo;</a></p>
+       </div>
+        <!-- <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div> -->
+      </div>
+
+      <hr>
+
+      <footer>
+        <p class="text-center">&copy; Rick Volkerink 2013 & <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
 </html>
